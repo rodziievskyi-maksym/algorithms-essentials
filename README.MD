@@ -4,6 +4,9 @@ https://neetcode.io/roadmap
 Web-platform where I solve problems:
 https://leetcode.com/
 
+My account on leetcode:
+https://leetcode.com/rodziyevskydev/
+
 list of problems:
 
 
