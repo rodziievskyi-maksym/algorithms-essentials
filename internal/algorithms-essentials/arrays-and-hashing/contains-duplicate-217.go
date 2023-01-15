@@ -9,7 +9,7 @@ func ContainsDuplicate() {
 	*/
 
 	result := containsDuplicate([]int{1, 2, 3, 4, 5, 2, 4})
-	fmt.Printf("Result: %t\n", result)
+	fmt.Printf("Contains Duplicate in array: %t\n", result)
 }
 
 func containsDuplicate(nums []int) bool {

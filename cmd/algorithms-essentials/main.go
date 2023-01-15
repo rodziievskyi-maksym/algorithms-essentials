@@ -17,6 +17,8 @@ func run() {
 	printProcessingMessage()
 
 	arrays_and_hashing.ContainsDuplicate()
+	arrays_and_hashing.ValidAnagram()
+	arrays_and_hashing.TwoSums()
 }
 
 func printProcessingMessage() {

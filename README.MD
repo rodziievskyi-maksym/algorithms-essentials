@@ -12,8 +12,12 @@ list of problems:
 
 ### `/internal/algorithms-essentials/`
 Inside this folder I separated folders by the topics:
-### `/arrays-and-hasing/`
+### `/arrays-and-hashing/`
 https://leetcode.com/problems/contains-duplicate/
+
+https://leetcode.com/problems/valid-anagram/
+
+https://leetcode.com/problems/two-sum/
 
 ### `/stack/`
 https://leetcode.com/problems/valid-parentheses/
