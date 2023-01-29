@@ -19,6 +19,8 @@ https://leetcode.com/problems/valid-anagram/
 
 https://leetcode.com/problems/two-sum/
 
+https://leetcode.com/problems/missing-number/
+
 Medium:
 
 https://leetcode.com/problems/group-anagrams/
