@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	arrays_and_hashing "github.com/max-rodziyevsky/algorithms-essentials/internal/algorithms-essentials/arrays-and-hashing"
-	"github.com/max-rodziyevsky/algorithms-essentials/internal/algorithms-essentials/stack"
+	"github.com/max-rodziyevsky/algorithms-essentials/internal/arrays-and-hashing/medium"
+	"github.com/max-rodziyevsky/algorithms-essentials/internal/stack"
 )
 
 func main() {
@@ -25,7 +25,6 @@ func run() {
 	arrays_and_hashing.GroupAnagrams()
 
 	stack.ValidParentheses()
-
 }
 
 func printProcessingMessage() {
