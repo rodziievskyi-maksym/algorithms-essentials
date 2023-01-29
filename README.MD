@@ -13,17 +13,27 @@ list of problems:
 ### `/internal/algorithms-essentials/`
 Inside this folder I separated folders by the topics:
 ### `/arrays-and-hashing/`
+
+Easy:
+
 https://leetcode.com/problems/contains-duplicate/
 
 https://leetcode.com/problems/valid-anagram/
 
 https://leetcode.com/problems/two-sum/
 
-https://leetcode.com/problems/missing-number/
-
 Medium:
 
 https://leetcode.com/problems/group-anagrams/
 
 ### `/stack/`
+
+Easy:
+
 https://leetcode.com/problems/valid-parentheses/
+
+### `/bit-manipulations`
+
+Easy:
+
+https://leetcode.com/problems/missing-number/
