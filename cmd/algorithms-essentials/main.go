@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/max-rodziyevsky/algorithms-essentials/internal/arrays-and-hashing/medium"
-	"github.com/max-rodziyevsky/algorithms-essentials/internal/stack"
+	arrays_and_hashing_easy "github.com/max-rodziyevsky/algorithms-essentials/internal/arrays-and-hashing/easy"
+	arrays_and_hashing_medium "github.com/max-rodziyevsky/algorithms-essentials/internal/arrays-and-hashing/medium"
+	stack "github.com/max-rodziyevsky/algorithms-essentials/internal/stack/easy"
 )
 
 func main() {
@@ -17,12 +18,13 @@ func main() {
 func run() {
 	printProcessingMessage()
 
-	//arrays_and_hashing.ContainsDuplicate()
-	//arrays_and_hashing.ValidAnagram()
-	//arrays_and_hashing.TwoSums()
+	//easy
+	arrays_and_hashing_easy.ContainsDuplicate()
+	arrays_and_hashing_easy.ValidAnagram()
+	arrays_and_hashing_easy.TwoSums()
 
 	// Medium
-	arrays_and_hashing.GroupAnagrams()
+	arrays_and_hashing_medium.GroupAnagrams()
 
 	stack.ValidParentheses()
 }
