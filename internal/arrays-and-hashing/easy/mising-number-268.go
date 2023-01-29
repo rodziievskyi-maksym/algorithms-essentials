@@ -24,7 +24,7 @@ func missingNumber(nums []int) int {
 		}
 	}
 
-	// Tricky solving cuz wen can use here arithmetics progression formula -> Sn = (a1 + an) * n / 2 -> result is sum of all numbers in array
+	// Tricky solving cuz wen can use here arithmetical progression formula -> Sn = (a1 + an) * n / 2 -> result is sum of all numbers in array
 	// what left is just extract sum of current array without missing number from formula result's array
 	// We take a length of array of adding + 1 to make it "full" with missing number
 	return length*(length+1)/2 - total
