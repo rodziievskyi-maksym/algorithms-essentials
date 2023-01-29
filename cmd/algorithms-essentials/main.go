@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/max-rodziyevsky/algorithms-essentials/internal/algorithms-essentials/arrays-and-hashing"
+	arrays_and_hashing "github.com/max-rodziyevsky/algorithms-essentials/internal/algorithms-essentials/arrays-and-hashing"
+	"github.com/max-rodziyevsky/algorithms-essentials/internal/algorithms-essentials/stack"
 )
 
 func main() {
@@ -16,9 +17,15 @@ func main() {
 func run() {
 	printProcessingMessage()
 
-	arrays_and_hashing.ContainsDuplicate()
-	arrays_and_hashing.ValidAnagram()
-	arrays_and_hashing.TwoSums()
+	//arrays_and_hashing.ContainsDuplicate()
+	//arrays_and_hashing.ValidAnagram()
+	//arrays_and_hashing.TwoSums()
+
+	// Medium
+	arrays_and_hashing.GroupAnagrams()
+
+	stack.ValidParentheses()
+
 }
 
 func printProcessingMessage() {
