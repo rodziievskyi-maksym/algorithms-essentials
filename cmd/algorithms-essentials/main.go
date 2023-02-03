@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	bit_manipulations "github.com/max-rodziyevsky/algorithms-essentials/internal/bit-manipulations/easy"
+	two_pointers "github.com/max-rodziyevsky/algorithms-essentials/internal/two-pointers/easy"
 )
 
 func main() {
@@ -21,14 +21,15 @@ func run() {
 	//arrays_and_hashing_easy.ValidAnagram()
 	//arrays_and_hashing_easy.TwoSums()
 	//arrays_and_hashing_easy.MissingNumber()
-	//
-	//// Medium
+
+	// Medium
 	//arrays_and_hashing_medium.GroupAnagrams()
-	//
+
 	//stack.ValidParentheses()
 
-	bit_manipulations.MissingNumber()
+	//bit_manipulations.MissingNumber()
 
+	two_pointers.ValidPalindrome()
 }
 
 func printProcessingMessage() {

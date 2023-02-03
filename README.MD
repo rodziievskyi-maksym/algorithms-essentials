@@ -37,3 +37,16 @@ https://leetcode.com/problems/valid-parentheses/
 Easy:
 
 https://leetcode.com/problems/missing-number/
+
+### `/math`
+
+Easy:
+
+https://leetcode.com/problems/missing-number/
+
+
+### `/two-pointers`
+
+Easy:
+
+https://leetcode.com/problems/valid-palindrome/
