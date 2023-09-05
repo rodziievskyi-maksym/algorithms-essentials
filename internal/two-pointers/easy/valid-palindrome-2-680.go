@@ -13,7 +13,7 @@ func ValidPalindrome2() {
 	//Output: true
 
 	//Input:
-	s2 := "abca"
+	s2 := "atbbga"
 	//Output: true
 	//Explanation: You could delete the character 'c'.
 
@@ -22,7 +22,6 @@ func ValidPalindrome2() {
 }
 
 func validPalindrome(s string) bool {
-	// two pointers
 	if len(s) <= 2 {
 		return true
 	}
@@ -37,10 +36,8 @@ func validPalindrome(s string) bool {
 			leftIndex++
 			rightIndex--
 		} else {
-			return validPalindromeUtil(s, leftIndex+1, rightIndex) || validPalindromeUtil(s, leftIndex, rightIndex+1)
+			return validPalindromeUtil(s, leftIndex+1, rightIndex) || validPalindromeUtil(s, leftIndex, rightIndex-1)
 		}
-
-		return true
 	}
 
 	return true
