@@ -10,7 +10,8 @@ func TwoSums() {
 	*/
 
 	//fmt.Printf("Two Sums: %v\n", twoSum([]int{3, 2, 4}, 6))
-	fmt.Printf("Two Sums: %v\n", twoSum2([]int{3, 2, 4}, 6))
+	//fmt.Printf("Two Sums: %v\n", twoSum2([]int{3, 2, 4}, 6))
+	fmt.Printf("Two Sums: %v\n", twoSum3([]int{3, 2, 4}, 6))
 
 }
 
@@ -39,4 +40,39 @@ func twoSum2(nums []int, target int) []int {
 	}
 
 	return nil
+}
+
+func twoSum3(nums []int, target int) []int {
+	if len(nums) == 2 {
+		return []int{0, 1}
+	}
+
+	intHashSet := NewIntHashSet()
+	for i, num := range nums {
+		//
+		result := target - num
+		if intHashSet.Has(result) {
+			return []int{intHashSet.items[result], i}
+		}
+		intHashSet.Add(num, i)
+	}
+
+	return nil
+}
+
+type IntHashSet struct {
+	items map[int]int
+}
+
+func NewIntHashSet() *IntHashSet {
+	return &IntHashSet{items: make(map[int]int)}
+}
+
+func (h *IntHashSet) Has(num int) bool {
+	_, ok := h.items[num]
+	return ok
+}
+
+func (h *IntHashSet) Add(num int, index int) {
+	h.items[num] = index
 }

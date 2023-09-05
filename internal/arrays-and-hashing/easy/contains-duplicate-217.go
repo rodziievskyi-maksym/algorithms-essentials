@@ -9,7 +9,9 @@ func ContainsDuplicate() {
 	*/
 
 	result := containsDuplicate([]int{1, 2, 3, 4, 5, 2, 4})
+	result2 := containsDuplicate2([]int{1, 2, 3, 4, 5, 2, 4})
 	fmt.Printf("Contains Duplicate in array: %t\n", result)
+	fmt.Printf("Contains Duplicate 2 in array: %t\n", result2)
 }
 
 func containsDuplicate(nums []int) bool {
@@ -45,4 +47,19 @@ func (s *Set) Has(val int) bool {
 
 func (s *Set) Add(val int) {
 	s.items[val] = struct{}{}
+}
+
+// This solution variant takes more space and time to run than containsDuplicate. (Check leetcode history result)
+func containsDuplicate2(nums []int) bool {
+	hashMap := make(map[int]struct{})
+
+	for _, num := range nums {
+		if _, ok := hashMap[num]; !ok {
+			hashMap[num] = struct{}{}
+		} else {
+			return true
+		}
+	}
+
+	return false
 }

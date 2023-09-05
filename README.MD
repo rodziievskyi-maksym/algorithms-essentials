@@ -22,6 +22,9 @@ https://leetcode.com/problems/valid-anagram/
 
 https://leetcode.com/problems/two-sum/
 
+1299:
+https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
+
 Medium:
 
 https://leetcode.com/problems/group-anagrams/
@@ -50,3 +53,5 @@ https://leetcode.com/problems/missing-number/
 Easy:
 
 https://leetcode.com/problems/valid-palindrome/
+
+https://leetcode.com/problems/valid-palindrome-ii/

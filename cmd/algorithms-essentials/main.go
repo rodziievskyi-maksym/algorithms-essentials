@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	two_pointers "github.com/max-rodziyevsky/algorithms-essentials/internal/two-pointers/easy"
+	arrays_and_hashing "github.com/max-rodziyevsky/algorithms-essentials/internal/arrays-and-hashing/easy"
 )
 
 func main() {
@@ -13,13 +13,14 @@ func run() {
 	printProcessingMessage()
 
 	//easy arrays and hashing
-	//arrays_and_hashing_easy.ContainsDuplicate()
-	//arrays_and_hashing_easy.ValidAnagram()
-	//arrays_and_hashing_easy.TwoSums()
-	//arrays_and_hashing_easy.MissingNumber()
+	//arrays_and_hashing.ContainsDuplicate()
+	//arrays_and_hashing.ValidAnagram()
+	//arrays_and_hashing.TwoSums()
+	//arrays_and_hashing.MissingNumber()
+	arrays_and_hashing.ReplaceElements()
 
 	// Medium arrays and hashing
-	//arrays_and_hashing_medium.GroupAnagrams()
+	//arrays_and_hashing.GroupAnagrams()
 
 	//stack.ValidParentheses()
 
@@ -27,7 +28,7 @@ func run() {
 
 	// easy two pointers
 	//two_pointers.ValidPalindrome()
-	two_pointers.ValidPalindrome2()
+	//two_pointers.ValidPalindrome2()
 }
 
 func printProcessingMessage() {
